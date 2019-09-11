@@ -1,4 +1,7 @@
 # Add  code here!
 def prime(num)
-  num.prime?
+ if num.prime? == true
+   return true
+ else
+   return false
 end
